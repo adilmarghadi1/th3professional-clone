@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
+ import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import Join from './Join'
 import Adds from './Adds'
 import Live from './Live'
@@ -17,11 +17,15 @@ import Security from './Security'
 import Sessions from './Sessions'
 import Windows from './Windows'
 import News from './News'
-
-function Navbar () {
+import '../App.css'
+import useLocalStorage from 'use-local-storage';
+function Navbar (props) {
 
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
+
+     
+
 
     return(
         <div>
@@ -59,18 +63,14 @@ function Navbar () {
                 </nav>
                 <hr className='first-line'/>
 
-                <Routes>
-                    <Route path='/join' element={<Join />} />
-                    <Route path='/live' element={<Live />} />
-                    <Route path='/adds' element={<Adds />} />
-                    <Route path='*' element={<ErrorPage />} />
-                </Routes>
+                 
+           <div>
+            <img src={logo} alt='logo' className='imglogo'/>
+            </div> 
+            <br /> <br />
+            
            
-            </Router>
-            <img src={logo} alt='logo' className='imglogo'/> 
-            <br />
-
-            <Router>
+            
                 <nav className='navbar2'>
                     <div className='left2'>
                         <div className='search'>
@@ -83,56 +83,65 @@ function Navbar () {
 
                     <ul className={click ? 'nav-menu2 active' : 'nav-menu2'}>
                         <li className='nav-item2'>
-                            <Link to='/news'> أخبار</Link>
+                            <Link to='/news' className='nav-link2' onClick={handleClick}> أخبار</Link>
                         </li>
 
                         <li className='nav-item2'>
-                            <Link to='/free'> المجانيات</Link>
+                            <Link to='/free' className='nav-link2' onClick={handleClick}> المجانيات</Link>
                         </li>
 
                         <li className='nav-item2'>
-                            <Link to='/new'> حصريات</Link>
+                            <Link to='/new' className='nav-link2' onClick={handleClick}> حصريات</Link>
                         </li>
 
                         <li className='nav-item2'>
-                            <Link to='/facebook'> فيسبوك</Link>
+                            <Link to='/facebook' className='nav-link2' onClick={handleClick}> فيسبوك</Link>
                         </li>
 
                         <li className='nav-item2'>
-                            <Link to='/Google'> جوجل</Link>
+                            <Link to='/Google' className='nav-link2' onClick={handleClick}> جوجل</Link>
                         </li>
 
                         <li className='nav-item2'>
-                            <Link to='/Linux'> لينكس</Link>
+                            <Link to='/Linux' className='nav-link2' onClick={handleClick}> لينكس</Link>
                         </li>
 
                         <li className='nav-item2'>
-                            <Link to='/Security'> حماية</Link>
+                            <Link to='/Security' className='nav-link2' onClick={handleClick}> حماية</Link>
                         </li>
 
                         <li className='nav-item2'>
-                            <Link to='/Sessions'> الحلقات</Link>
+                            <Link to='/Sessions' className='nav-link2' onClick={handleClick}> الحلقات</Link>
                         </li>
 
                         <li className='nav-item2'>
-                            <Link to='/Android'> أندرويد</Link>
+                            <Link to='/Android' className='nav-link2' onClick={handleClick}> أندرويد</Link>
                         </li>
 
                         <li className='nav-item2'>
-                            <Link to='/Windows'> ويندوز</Link>
+                            <Link to='/Windows' className='nav-link2' onClick={handleClick}> ويندوز</Link>
                         </li>
 
                         <li className='nav-item2'>
-                            <Link to='/News'> مقالات</Link>
+                            <Link to='/News' className='nav-link2' onClick={handleClick}> مقالات</Link>
                         </li>
 
                         <li className='nav-item2'>
                             <Link to='/'><i class="fa fa-home"></i> </Link>
                         </li>
                     </ul>
+
+                    <div className='nav-icon2' activeClassName='active' onClick={handleClick}>
+                     <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+                 </div>
                     
                 </nav>
-
+                <Routes>
+                    <Route path='/join' element={<Join />} />
+                    <Route path='/live' element={<Live />} />
+                    <Route path='/adds' element={<Adds />} />
+                    {/* <Route path='*' element={<ErrorPage />} /> */}
+                </Routes>
                 <Routes>
                     <Route path='/news' element={<News />} />
                     <Route path='/free' element={<Free />} />
@@ -145,14 +154,19 @@ function Navbar () {
                     <Route path='/Android' element={<Android />} /><Route path='/Windows' element={<Windows />} />
                     <Route path='/New' element={<New/>} />
                     <Route path='/' element={<Home />} />
-                    <Route path='*' element={<ErrorPage />} />
+                    {/* <Route path='*' element={<ErrorPage />} /> */}
                 </Routes>
 
 
             </Router>
+
+           
         </div>
+
+        
     )
 }
 
-
+ 
+    
 export default Navbar
