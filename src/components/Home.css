@@ -1,0 +1,150 @@
+.all {
+    background-color: #f9f9f9;
+
+}
+
+.container {
+    padding-top: 20px;
+    margin:60px auto;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    width: 80%;
+    column-gap: 15px;
+}
+
+.box2 {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px #a9a9a945;
+    width: 100%;
+     
+}
+
+.box2 p {
+    text-align:end;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2d4c69;
+    
+}
+
+.ii {
+    padding-left: 10px;
+    color: rgb(58, 51, 51);
+}
+
+
+.box1 {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px #a9a9a945;
+    width: 100%!important;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+
+.title2 {
+    font-weight: 600;
+    text-align: center !important;
+    color: #2d4c69;
+    font-size: 14px;
+
+}
+.title1  {
+    text-align: center !important;
+    font-size: 18px;
+    color: #ff8400;
+}
+
+.box1 h3 {
+    padding: 20px 20px 20px;
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #2d4c69;
+}
+
+.btn11 {
+    display: flex;
+    justify-content: center;
+}
+
+.box1 .btn1 {
+    display: inline-block;
+    background: #ff8400;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+    border:0;
+}
+
+ 
+
+
+.box1 a {
+    text-decoration: none;
+    text-align: end;
+    padding: 18px 8px;
+    display: block;
+    background: #2d4c69;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-bottom: 9px;
+}
+
+.fac {
+    padding-left: 8px;
+    font-size: 19px;
+}
+
+.box1 a:nth-child(2) {
+    background-color: #e52d27;
+}
+
+.box1 a:nth-child(3) {
+    background-color: #55acee;
+}
+
+
+.box1 h2 {
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    color: #2d4c69;
+    float: none;
+}
+
+.box1 p {
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff8400;
+    text-align: end;
+}
+
+.h2all {
+    display: flex;
+    margin-bottom: 14px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.h2all img {
+    margin-left: 10px;
+    border-radius: 10px;
+}
