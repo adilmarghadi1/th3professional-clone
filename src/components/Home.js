@@ -22,9 +22,9 @@ function Home() {
             <div className='box1'>
                 <a href='#'>أكثر من 2 مليون و نصف معجب<span className='fac'><i class="fab fa-facebook"></i></span></a>
 
-                <a href='#'>أكثر من 2 مليون و نصف معجب<span className='fac'><i class="fab fa-facebook"></i></span></a>
+                <a href='#'>أكثر من 2 مليون و نصف معجب<span className='fac'><i class="fab fa-youtube"></i></span></a>
 
-                <a href='#'>أكثر من 2 مليون و نصف معجب<span className='fac'><i class="fab fa-facebook"></i></span></a>
+                <a href='#'>أكثر من 2 مليون و نصف معجب<span className='fac'><i class="fab fa-twitter"></i></span></a>
             </div>
 
             <div className='box1'>
@@ -76,17 +76,25 @@ function Home() {
                                 
                             </div>
                         </div>
+
+                        <div className='box3'>
+                            <h2>تعرف على هذا الامتداد لطمس المعلومات الشخصية أثناء التسجيل أو التقديم للعروض المباشرة مجانا وبطريقة بسيطة</h2>
+                            <div className='cate'>
+                              <i class="fas fa-user"></i>
+                            <p>العكرودي أنس</p>
+                            <i class="far fa-clock"></i>
+                            1:36 م  
+                            </div>
+
+                            <p>عندما يتعلق الأمر بمعلوماتنا الشخصية، نحتاج إلى توخي الحذر بشأن المعلومات التي يمكن مشاركتها في الانترنت. لسوء الحظ، هناك الكثير من الأشخاص ...</p>
+                           
+                           <button>قراءة المزيد</button>
+                           <button></button>
+                        </div>
             </div>
 
             
 
-            <div className='box3'>
-                
-            </div>
-
-            <div className='box4'>
-                
-            </div>
         </div>
         
         
