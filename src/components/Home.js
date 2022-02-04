@@ -13,8 +13,8 @@ function Home() {
     return (
         <div className='all'>
         <div className='container'>
-
-         <div className='container101'>
+     
+         
 
          
             <div className='container11'>
@@ -27,7 +27,7 @@ function Home() {
             </div> 
 
             <div className='box1'>
-                <a href='#'>أك---ثر من 2 مليون و نصف معجب<span className='fac'><i class="fab fa-facebook"></i></span></a>
+                <a href='#'>أكثر من 2 مليون و نصف معجب<span className='fac'><i class="fab fa-facebook"></i></span></a>
 
                 <a href='#'>أكثر من 2 مليون و نصف معجب<span className='fac'><i class="fab fa-youtube"></i></span></a>
 
@@ -261,7 +261,7 @@ function Home() {
                         
                          
                         </div>
-                        </div>
+                         
                       
             </div>
 
