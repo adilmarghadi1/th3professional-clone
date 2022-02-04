@@ -72,7 +72,7 @@ function Home() {
                 </div>
 
             </div>
-            </div>
+             
             
             <div className='container2'>
                 <div className='box2'>
@@ -270,7 +270,7 @@ function Home() {
         </div>
         
         
-        
+        </div>
         
         </div>
     )
