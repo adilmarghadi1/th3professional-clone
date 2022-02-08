@@ -14,9 +14,9 @@ function Home() {
         <>
         {data.map(data => (
              <div className='box3parent'>
-             <div className="box3">
-        <img key={data.id} src={data.img} />
-         
+             <div className='hi1'>
+        <img key={data.id} src={data.img} /></div>
+        <div className="box3">
             <h2 key={data.id}>{data.name}</h2>
             
        
