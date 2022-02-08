@@ -175,10 +175,11 @@
     transition: 0.3s;
 }
 
-.box3 img {
-    width: 90%;
+.box3parent img {
+    width:350px;
     float: right;
     height: 100%;
+    margin-left: 20px;
 }
 
 .cate {

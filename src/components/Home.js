@@ -11,50 +11,39 @@ import data from './data/data.json'
 
 function Home() {
     const first = (
-        <div>
+        <>
         {data.map(data => (
+             <div className='box3parent'>
+             <div className="box3">
         <img key={data.id} src={data.img} />
-))}
-        </div>
-    );
-
-    const second = (
-        <div>
-            {data.map(data => (
+         
             <h2 key={data.id}>{data.name}</h2>
-            ))}
+            
+       
+         <div className='cate'>                            
+            <p key={data.id}>{data.date}</p>
+                    <i class="far fa-clock"></i>
+                    <p key={data.id}>{data.author}</p>
+                    <i class="fas fa-user"></i>                         
         </div>
+        <p key={data.id} className='text1'>{data.desc}</p>
+        <div className='btn22'>
+                                   <button className='btn23'>  <i class="fa fa-share-alt fa-fw"></i>   </button>
+                           <button className='btn21'>قراءة المزيد</button> 
+                               </div>
+             </div>
+             </div>
+))}
+        </>
     )
 
-    const third =(
-        <div>
-        {data.map(data => (
-                                    <p key={data.id}>{data.author}</p>
-                                    ))}
-        </div>
-    )
+    
 
-    const fourth = (
-        <div> 
-        {data.map(data => (
-                                    <p key={data.id} className='text1'>{data.desc}</p>
-                                    ))}
-
-        </div>
-    )
-
-    const date = (
-        <div>
-     {data.map(data => (
-                                    <p key={data.id}>{data.date}</p>
-                                    ))}
-        </div>
-    )
     return (
         <div className='all'>
         <div className='container'>
      
-         
+        
 
          
             <div className='container11'>
@@ -122,27 +111,11 @@ function Home() {
                                     
                             </div>
                         </div>
-                        <div className='box3parent'>
-                              <div className='box3'>
-                               {first}
-                            </div>
-                            <div className='box3'>
-                                   {second}
-                            <div className='cate'>
-                              
+                        
                             
-                            {date}
-                            <i class="far fa-clock"></i>
-                            {third}
-                            <i class="fas fa-user"></i> 
-                            </div>
-
-                            {fourth}
+                            
+                            {first}
                                
-                               <div className='btn22'>
-                                   <button className='btn23'>  <i class="fa fa-share-alt fa-fw"></i>   </button>
-                           <button className='btn21'>قراءة المزيد</button> 
-                               </div>
                               
                        
                            
@@ -152,16 +125,15 @@ function Home() {
                         </div>
  
 
-                         
                       
         </div>
         
         
         
 
-        </div>
         
-        </div>
+        
+       
     )
 }
 
