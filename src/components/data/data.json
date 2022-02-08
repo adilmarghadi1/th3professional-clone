@@ -1,0 +1,57 @@
+  [
+    {
+        "id":1,
+        "name": "تعرف على هذا الامتداد لطمس المعلومات الشخصية أثناء التسجيل أو التقديم للعروض المباشرة " ,
+        "desc": " Twitter عبارة عن منصة وسائط اجتماعية شائعة، يمكن أن تساعد عملك في الوصول إلى جمهور أوسع، ومشاركة علامتك التجارية و التواصل مع العملاء والمت...",
+        "author":"العكرودي أنس",
+        "date":"2:30",
+        "url" :"https://goalkicker.com/HTML5Book/",
+         "img":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhONb4-QFLexI1oDX3LlH8wH23EUgbjUnRWr8gx2jIW8fyu0FWtKAa4OYIFzLfgAhMpeVAKSZZkHWKgs-5QEChej9ZFw7yerk68oKsc-SMXpWKo9jmUCJF_VpYo9x3Tfb8RewJIfAHkST6CqaNfV98tvhqHtQeNoDWFNMjggmJd7pzD70698FK-wKNF/s640/s22U.png"
+    },
+    {
+        "id":2,
+        "name": "إمتداد مجاني لتخصيص واجهة Twitter الخاص بك و إزالة عناصر تشتيت الانتباه مجانا" ,
+        "desc": "قالت منصة التراسل الفوري الآمنة Signal إن ملايين الأشخاص حول العالم يعتمدون يوميًا على تطبيقها من أجل اتصالات آمنة وخاصة. يقوم بعض هؤلاء الأ..",
+        "author":"العكرودي أنس",
+        "date":"2:30",
+        "url" :"https://goalkicker.com/CSSBook/"
+    },
+    {
+        "id":3,
+        "name": "بالصور: Signal تعلن عن ميزة مفيدة وجديدة على تطبيقها" ,
+        "desc": "كشفت شركة Meta نهاية الأسبوع الماضي عن ميزة الحدود الشخصية لـ Horizon Worlds و Horizon Venues. يمنع Personal Boundary الصور الرمزية من الاقت...",
+        "author":"العكرودي أنس",
+        "date":"2:30",
+        "url" :"https://goalkicker.com/JavaScriptBook/"
+    },
+     {
+        "id":4,
+        "name": "Meta تعلن عن ميزة جديدة لحماية الخصوصية على الميتافيرس" ,
+        "desc": "يعد اليوتيوب أكبر موقع لمشاهدة و مشاركة الفيديوهات على الإنترنت. وكصانع محتوى، لابد من تحليل خوارزمية YouTube و معالجة النقاط المختلفة لجعل ...",
+        "author":"العكرودي أنس",
+        "date":"2:30",
+        "url" :"https://goalkicker.com/JavaScriptBook/"
+    },
+
+    {
+        "id":5,
+        "name": "  موقع للحصول على قوالب احترافية للصور المصغرة لليوتيوب وقوالب Instagram مع خيار تحريرها أيضا!" ,
+        "desc": "حصل متصفح جوجل الأكثر شهرة على الويب  جوجل كروم على تحديث جديد لم ينتبه له أغلبية المستخدمون، فقد حصل جوجل كروم على شعار جديد ، و...",
+        "author":"العكرودي أنس",
+        "date":"2:30",
+        "url" :"https://goalkicker.com/JavaScriptBook/"
+    },
+
+    {
+        "id":6,
+        "name": "  جوجل كروم تطلق تحديث جديد لم يكتشفه سوى قلة من المستخدمين" ,
+        "desc": "من المفترض أن تعلن شركة سامسونغ رسميا عن هاتفها الرئيسي لهذا العام، وهو Galaxy S22 بنسخه المختلفة خلال التاسع من فبراير الجاري، لكن قبل ذلك ...",
+        "author":"العكرودي أنس",
+        "date":"2:30",
+        "url" :"https://goalkicker.com/JavaScriptBook/"
+    }
+
+    
+
+
+] 
